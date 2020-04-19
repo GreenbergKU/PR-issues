@@ -1,27 +1,10 @@
 class Game {
-    constructor() {
-        
+    constructor(playerX, playerO) {
+        this.name = playerX
+        this.name = playerO
+        this.matchup = []        
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
