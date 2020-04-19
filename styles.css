@@ -1,6 +1,6 @@
 /*======*/
 /*=== brower viewport ===*/
-* {
+/* * {
     box-sizing: border-box;
 }
 
@@ -23,7 +23,7 @@ body {
 } */
 
 /***** BOARD GAME GRAPHICS ******/
-.item1 {
+/* .item1 {
     grid-area: 1/1/2/8;
     border: 1px solid black;
     background-color: black;
@@ -43,34 +43,37 @@ body {
 .item4 {
     grid-area: 2/6/6/8;
     border: 1px solid black;
-}
+}  */
 
-/*=== player 1 ===*/
-/*=== player 2 ===*/ 
-/*===
-.player-1, .player-2 {
-    
-}
 
-.player-info-1, .player-info-2 {
-
-}
-
-.player-grid-1, .player-grid-2 {
-
-}
-/*=== gamboard ===*/
-/*=== 
-
-.heading-game-info {
-    
-    
-}
-
-.gameboard {
-}
-
- === */
-
-/*=== heading ===*/
-
+body {
+    text-align: center;
+  }
+  
+  
+  .square {
+    display: inline-block;
+    width: 185px;
+    height: 165px;
+    margin: 3px;
+    background-color: #bfbfbf;
+    vertical-align: top;
+    font-size: 700%;
+    color: #ff1b00;
+  }
+  
+  .row {
+    min-width: 600px ;
+  }
+  
+  #new-game {
+    margin: 10px;
+  }
+  
+  #message {
+    font-size: 3em;
+  }
+  
+  .X {
+    color: black;
+  }
