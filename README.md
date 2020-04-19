@@ -1,11 +1,21 @@
+README.md
 # FINAL PROJECT: Tic-Tac-Toe
 
+
+[Sue's Slack profile photo](https://ca.slack-edge.com/T029P2S9M-UTPTTDE84-13b671276cf8-72)
+[Casey Dallavalle's Slack profile photo](https://ca.slack-edge.com/T029P2S9M-U6VMF6L85-fa69b231d590-72)
+
+![Screen Shot 2020-04-16 at 10 02 15 PM](https://user-images.githubusercontent.com/10098034/79581104-3072ed80-8087-11ea-9d3b-9a2c53522196.png)
+
+
+* project manager: __CASEY__ [(github)](https://github.com/turingschool-examples)
+* contributer: __Sue__ [(github)](https://github.com/GreenbergKU)
+<!-- 
 Suzannne Wolf
-https://ca.slack-edge.com/T029P2S9M-UTPTTDE84-13b671276cf8-512
+https://ca.slack-edge.com/T029P2S9M-UTPTTDE84-13b671276cf8-72)
 Casey Dallavalle
-https://ca.slack-edge.com/T029P2S9M-U6VMF6L85-fa69b231d590-512)
-[Suzannne Wolf](https://ca.slack-edge.com/T029P2S9M-UTPTTDE84-13b671276cf8-512)
-[Casey Dallavalle](https://ca.slack-edge.com/T029P2S9M-U6VMF6L85-fa69b231d590-512)![Screen Shot 2020-04-16 at 10 02 15 PM](https://user-images.githubusercontent.com/10098034/79581104-3072ed80-8087-11ea-9d3b-9a2c53522196.png)
+https://ca.slack-edge.com/T029P2S9M-U6VMF6L85-fa69b231d590-72) 
+-->
 
 ### Turing MOD 1 SOLO PROJECT focusing on the DATA MODEL
 
@@ -96,3 +106,11 @@ The separation of data model logic and presentational logic is clear and can be 
 Arguments and parameters are used to limit global variables. The event object is used correctly, and is not accepted as a parameter if it is not necessary. Developer can speak to how the event object is utilized for any given event handler. Function and variable names describe their role in the program. Examples: The name of the data type should not ever be in a variable name (ex: “petArray”); the name itself should be clear enough to indicate the type of data it holds (ex: “allPets”). An event handler should not have “handler” in the name (ex: “clickHandler”); the name should indicate the handler’s purpose (ex: “addNewPet”). 
 #### 1:
 Style and syntax meets the criteria of the Turing JS Style Guide. Function declarations are used over anonymous functions in event listeners.
+
+### STYLE GUIDE REFERENCES
+
+* Turing's [HTML Style Guide]:(https://github.com/turingschool-examples/html)
+
+* Turing's [CSS Style Guide]:(https://github.com/turingschool-examples/css)
+
+* Turing's [JavaScript Style Guide]:(https://github.com/turingschool-examples/javascript)
