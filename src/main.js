@@ -2,7 +2,8 @@
 
 
 var gameRecord = []
-
+var occupiedSpaces = []
+var winningTriphecta = []
 
 
 function retrieveFromStorage() {

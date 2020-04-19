@@ -1,9 +1,9 @@
 class GameBoard {
     constructor(square) {
         this.board = [];
-        this.rest();
+        
         this.square = square;
-        this.vacancy = true;
+        this.isVacant = true;
         this.upNext = upNext;
     }
 }
