@@ -51,29 +51,29 @@ body {
   }
   
   
-  .square {
-    display: inline-block;
-    width: 185px;
-    height: 165px;
-    margin: 3px;
-    background-color: #bfbfbf;
-    vertical-align: top;
-    font-size: 700%;
-    color: #ff1b00;
-  }
-  
-  .row {
-    min-width: 600px ;
-  }
-  
-  #new-game {
-    margin: 10px;
-  }
-  
-  #message {
-    font-size: 3em;
-  }
-  
-  .X {
-    color: black;
-  }
+.square {
+  display: inline-block;
+  width: 185px;
+  height: 165px;
+  margin: 3px;
+  background-color: #bfbfbf;
+  vertical-align: top;
+  font-size: 700%;
+  color: #ff1b00;
+}
+
+.row {
+  min-width: 600px;  
+}
+
+#new-game {
+  margin: 10px;
+}
+
+#message {
+  font-size: 3em;
+}
+
+.X {
+  color: black;
+}

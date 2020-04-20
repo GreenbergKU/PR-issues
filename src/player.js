@@ -1,12 +1,14 @@
 class Player {
-    constructor(name, id, image,) {
+    constructor(id, name, image) {
         //actionRequired = false;
         this.name = name;
-        this.id = id || Date.now()
+        this.id = id;
         this.image = image;
-        //this.actionRequired = actionRequired == undefined ? false : actionRequired;
-        this.actionRequired = false;
-        this.gameHistory = [];
+        // this.isturn = false;
+        // //this.actionRequired = actionRequired == undefined ? false : actionRequired;
+        // this.gameHistory = [];
+        // this.occupiedSquares = []
+
     }
 
     saveUserInStorage() {
@@ -29,3 +31,16 @@ class Player {
     //id == user input
     //loop to check if id has been used previously, if not, then ok, else 'pick new name'
 }
+function retrieveFromStorage() {
+    for (var i = 0; i < localStorage.length; i++) {
+      var recordToRetrieve = localStorage.getItem(localStorage.key(i))
+      var parsedRecord = JSON.parse(recordToRetrieve)
+      reconstruct(parsedRecord)
+    }
+    render()
+  }
+  
+  function reconstruct(parsedRecord) {
+      var gameRecordReplica = new Idea(parsedRecord.name, parsedRecord.id, parsedRecord.image, parsedRecord.gameHistory)
+      gameRecord.push(gameRecordReplica)
+  }

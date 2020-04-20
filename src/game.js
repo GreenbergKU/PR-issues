@@ -1,11 +1,24 @@
 class Game {
-    constructor(playerX, playerO) {
-        this.name = playerX
-        this.name = playerO
-        this.matchup = []        
+    constructor() {
+        this.playerX = new Player 
+        this.playerO = new Player
+        //this.matchup = [] 
+        this.winningTriphecta = []
+        this.opponents = [this.playerX, this.playerO]  
+        this.currentPlayer = this.playerX  !== undefined ? 
+        this.occupiedSquares = []     
     }
+    
+    takeTurn(){
+        
+    }
+    
+    // checkSquareVacancy() {
+    //     this.opponents.forEach()`[${name}.occupiedSpaces.length]` 
+    // }
 }
 
+// for (var i = 0; i < (`[${name}.occupiedSpaces.length]`); i++)
 
 
 

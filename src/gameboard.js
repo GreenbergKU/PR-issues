@@ -1,10 +1,6 @@
-class GameBoard {
-    constructor(square) {
+class Board {
+    constructor() {
         this.board = [];
-        
-        this.square = square;
-        this.isVacant = true;
-        this.upNext = upNext;
     }
 }
 //changeTurn()
