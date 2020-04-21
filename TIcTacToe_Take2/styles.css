@@ -29,21 +29,23 @@ body {
   padding-top: 5px;
 }
 
+
 main {
   background: #A9AAD2;
-  flex-grow: 11;
+  flex-grow: 6;
+  justify-content: cener;
 }
 
 .board {
-  
+  text-align: center;
 }
 
 .playerO {
   background-color: blue;
   flex-grow: 3;
   display: flex;
-  padding-top: 1px;
-  padding-left: 15px
+  padding-top: 5px;
+
 }
 
 .center {
@@ -54,10 +56,15 @@ main {
   margin-bottom: 5px;
 }
 
+.mini-row {
+  display: flex;
+}
+
 .mini-container {
   padding: o;
   margin-left: 10px;
   border: .5px dotted white;
+  text-align: center;
 }
 
 .mini-box {
@@ -66,8 +73,6 @@ main {
   width: 10px;
   margin: .5px;
   text-align: center;
-  cursor: pointer;
-  align-self: center;
 }
 
 .box {

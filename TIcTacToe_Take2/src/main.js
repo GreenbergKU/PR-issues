@@ -22,7 +22,7 @@ var boxes = document.querySelectorAll('.box');
 var userTurnEl = document.querySelector('.current-player');
 // text element to indicate who the winner is
 var winnerEl = document.querySelector('.winner');
-
+var miniCenter = document.querySelector('.mini-container-center')
 // ===== State of the game =====
 var state = {
   spaces: (new Array(9)).fill(null),
